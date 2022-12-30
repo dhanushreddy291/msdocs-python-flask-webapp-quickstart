@@ -5,9 +5,9 @@ app = Flask(__name__)
 @app.route('/')
 def get_data():
     data = {
-        'name': 'John',
-        'age': 30,
-        'city': 'New York'
+        'name': 'Dhanush',
+        'age': 20,
+        'city': 'Hyderabad'
     }
     return jsonify(data)
 
