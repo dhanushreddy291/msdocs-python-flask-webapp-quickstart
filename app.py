@@ -10,6 +10,3 @@ def get_data():
         'city': 'Hyderabad'
     }
     return jsonify(data)
-
-if __name__ == '__main__':
-   app.run()
